@@ -1,6 +1,7 @@
 /*
 !*.gitignore
 !*.gitattributes
+!*.md
 !*.optix
 !*.optix.design
 !Nodes/
