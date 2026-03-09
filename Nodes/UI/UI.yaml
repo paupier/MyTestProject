@@ -102,76 +102,370 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
+    - Name: RAAmber
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f5820a"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#c25e00"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
+    - Name: RACyan
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00d4ff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#080e1a"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0099bb"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
+    - Name: RADark
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0d1826"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1e2b3a"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
+    - Name: RAGolden
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f7c948"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#080e1a"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#c09a1e"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
   - Name: InputBoxStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: InputBoxStyle
+    - Name: RADark
+      Type: InputBoxStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0d1826"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00d4ff"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
   - Name: SwitchStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: SwitchStyle
+    - Name: RAAmber
+      Type: SwitchStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f5820a"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1e2b3a"
   - Name: GaugeStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: GaugeStyle
+    - Name: RAAmber
+      Type: GaugeStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f5820a"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1e2b3a"
+    - Name: RACyan
+      Type: GaugeStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00d4ff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1e2b3a"
   - Name: NavigationPanelStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: NavigationPanelStyle
+    - Name: RADark
+      Type: NavigationPanelStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0d1826"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1e2b3a"
   - Name: ChartStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: ChartStyle
+    - Name: RADark
+      Type: ChartStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0d1826"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1e2b3a"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
   - Name: DataListStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: DataListStyle
+    - Name: RADark
+      Type: DataListStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0d1826"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1e2b3a"
   - Name: ToolTipStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: ToolTipStyle
+    - Name: RADark
+      Type: ToolTipStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0d1826"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f5820a"
   - Name: ScrollBarStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: ScrollBarStyle
+    - Name: RADark
+      Type: ScrollBarStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1e2b3a"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0d1826"
   - Name: AccordionStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: AccordionStyle
+    - Name: RADark
+      Type: AccordionStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0d1826"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1e2b3a"
   - Name: PieChartStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: PieChartStyle
+    - Name: RADark
+      Type: PieChartStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0d1826"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1e2b3a"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
   - Name: HistogramChartStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: HistogramChartStyle
+    - Name: RADark
+      Type: HistogramChartStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0d1826"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1e2b3a"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
   - Name: LabelStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: LabelStyle
+    - Name: RAHeadline
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+    - Name: RASubLabel
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f7c948"
+    - Name: RAAmber
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f5820a"
+    - Name: RACyan
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00d4ff"
   - Name: RadioButtonStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: RadioButtonStyle
+    - Name: RAAmber
+      Type: RadioButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f5820a"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
   - Name: CheckBoxStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: CheckBoxStyle
+    - Name: RAAmber
+      Type: CheckBoxStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f5820a"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
